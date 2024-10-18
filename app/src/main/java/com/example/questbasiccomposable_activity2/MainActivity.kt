@@ -13,7 +13,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.example.questbasiccomposable_activity2.ui.theme.QuestBasicComposable_Activity2Theme
 
 class MainActivity : ComponentActivity() {
@@ -40,7 +43,11 @@ fun BasicCompose(farras: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
-
+        Text(text = "Login", modifier = farras,
+            fontSize = 70.sp,
+            color = Color.Green,
+            fontWeight = FontWeight.Bold
+        )
     }
 
 
