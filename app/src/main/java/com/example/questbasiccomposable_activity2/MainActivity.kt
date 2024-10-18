@@ -68,7 +68,7 @@ fun BasicCompose(farras: Modifier = Modifier) {
 
         Text(text = "Ini adalah halaman login",
             style = TextStyle(
-                fontSize = 20.sp,
+                fontSize = 21.sp,
                 color = Color.Black
             )
         )
