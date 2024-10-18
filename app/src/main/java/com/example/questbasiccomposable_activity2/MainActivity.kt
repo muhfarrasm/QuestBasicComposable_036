@@ -57,7 +57,7 @@ fun BasicCompose(farras: Modifier = Modifier) {
             modifier = farras,
             style = TextStyle(
                 fontSize = 50.sp,
-                color = Color.Green,
+                color = Color.Blue,
                 fontStyle = FontStyle.Italic,
                 fontWeight = FontWeight.Bold
 
