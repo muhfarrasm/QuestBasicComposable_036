@@ -81,14 +81,14 @@ fun BasicCompose(farras: Modifier = Modifier) {
 
         Text(text = "Nama",
             style = TextStyle(
-                fontSize = 18.sp,
+                fontSize = 19.sp,
                 color = Color.Black
             )
         )
 
         Text(text = "Muhammad Farras Mas'ud",
             style = TextStyle(
-                fontSize = 13.sp,
+                fontSize = 15.sp,
                 color = Color.Red,
             )
         )
