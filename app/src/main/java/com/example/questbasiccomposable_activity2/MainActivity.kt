@@ -14,6 +14,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
@@ -43,20 +45,22 @@ fun BasicCompose(farras: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ){
-        Text(text = "Login", modifier = farras,
-            fontSize = 70.sp,
+        Text(text = "Login",
+            modifier = farras,
+            fontSize = 50.sp,
             color = Color.Green,
             fontWeight = FontWeight.Bold
+        )
+
+        Text(text = "Ini adalah halaman login",
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Black
+            )
         )
     }
 
 
 }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    QuestBasicComposable_Activity2Theme {
-        Greeting("Android")
-    }
-}
