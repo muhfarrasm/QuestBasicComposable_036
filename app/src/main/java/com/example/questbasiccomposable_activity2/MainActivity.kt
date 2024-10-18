@@ -105,7 +105,7 @@ fun BasicCompose(farras: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier
                 .size(260.dp)
-                .clip(RoundedCornerShape(260.dp))
+                .clip(RoundedCornerShape(topStart = 200.dp, topEnd = 200.dp, bottomEnd = 190.dp, bottomStart = 190.dp))
 
         )
 
