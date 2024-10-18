@@ -1,6 +1,6 @@
 package com.example.questbasiccomposable_activity2
 
-import android.media.Image
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -69,6 +69,14 @@ fun BasicCompose(farras: Modifier = Modifier) {
             painter = painterResource(id = R.drawable.logumy),
             contentDescription = null,
             modifier = Modifier.size(200.dp)
+        )
+
+        Text(text = "Nama",
+            style = TextStyle(
+                fontSize = 15.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Black
+            )
         )
 
 
