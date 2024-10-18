@@ -91,6 +91,12 @@ fun BasicCompose(farras: Modifier = Modifier) {
             )
         )
 
+        Image(
+            painter = painterResource(id = R.drawable.fotosaya),
+            contentDescription = null,
+            modifier = Modifier.size(200.dp)
+        )
+
 
 
 
