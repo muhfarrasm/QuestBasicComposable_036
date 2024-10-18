@@ -95,7 +95,7 @@ fun BasicCompose(farras: Modifier = Modifier) {
 
         Text(text = "20220140036",
             style = TextStyle(
-                fontSize = 28.sp,
+                fontSize = 30.sp,
                 color = Color.Black,
             )
         )
